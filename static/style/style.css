@@ -1,0 +1,32 @@
+body{
+    padding: 20% 35%;
+}
+#calculator{
+    border: solid thick;
+    background-color: rgb(182, 172, 172);
+    padding: 5%;
+}
+#display{
+    font-family: monospace;
+    font-size: 48px;
+    justify-content: end;
+    margin: 6px 0px;
+    border: thin solid;
+    background-color: ghostwhite;
+}
+#calculator button{
+    font-weight: bold;
+    box-shadow: 3px 4px gray;
+    font-size: x-large;
+    border-radius: 13%;
+    margin: 6px 10px;
+    background-color: goldenrod;
+}
+#calculator .operator{
+    color: ghostwhite;
+    background-color: rgb(11, 153, 106);
+}
+#calculator #equals{
+    color: ghostwhite;
+    background-color: darkslategray;
+}
