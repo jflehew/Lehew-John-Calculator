@@ -2,6 +2,7 @@ body{
     padding: 20% 35%;
 }
 #calculator{
+    width: 325px;
     border: solid thick;
     background-color: rgb(182, 172, 172);
     padding: 5%;
@@ -9,11 +10,15 @@ body{
 #display{
     font-family: monospace;
     font-size: 48px;
-    justify-content: end;
+    text-align: right;
     margin: 6px 0px;
     border: thin solid;
     background-color: ghostwhite;
+    overflow-x: scroll;
+    padding: 10px;
+    white-space: nowrap;
 }
+
 #calculator button{
     font-weight: bold;
     box-shadow: 3px 4px gray;
